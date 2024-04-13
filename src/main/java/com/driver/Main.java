@@ -3,16 +3,16 @@ package com.driver;
 public class Main {
 
     public static class Product{
-        public void product(int x,int y){
-
+        public int product(int x,int y){
+            return (x*y);
         }
 
-        public void product(int x,int y,int z){
-
+        public int product(int x,int y,int z){
+           return (x*y*z);
         }
 
-        public void product(double x,double y){
-
+        public double product(double x,double y){
+            return (x*y);
         }
     }
 
